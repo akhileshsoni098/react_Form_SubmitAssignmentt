@@ -1,11 +1,11 @@
 
 import './App.css';
-import FormSubmit from './component/FormSubmit';
+import TextToVoice from './TextToVoice';
 
 function App() {
   return (
     <div>
-      <FormSubmit/>
+    <TextToVoice/>
     </div>
   );
 }
