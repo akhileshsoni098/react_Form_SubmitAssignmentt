@@ -1,11 +1,11 @@
 
 import './App.css';
-import FormSubmit from './component/FormSubmit';
+import YourComponent from './component/FormSubmit';
 
 function App() {
   return (
     <div>
-      <FormSubmit/>
+      <YourComponent/>
     </div>
   );
 }
