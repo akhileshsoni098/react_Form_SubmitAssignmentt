@@ -15,7 +15,7 @@ const YourComponent = () => {
 
   const handleDownload = async () => {
     try {
-      const response = await axios.post('http://localhost:3001/admin/allData', {
+      const response = await axios.post('http://localhost:3001/admin/clientExcel', {
         fromDate,
         toDate,
       }, {
