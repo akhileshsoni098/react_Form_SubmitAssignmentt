@@ -1,11 +1,11 @@
 
 import './App.css';
-import TextToVoice from './TextToVoice';
-
+import SpeechToText from './SpeechToText';
 function App() {
   return (
     <div>
-    <TextToVoice/>
+<h1>Speech-to-Text Akhilesh Soni</h1>
+    <SpeechToText/>
     </div>
   );
 }
