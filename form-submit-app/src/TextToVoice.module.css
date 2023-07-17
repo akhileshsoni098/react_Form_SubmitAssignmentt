@@ -1,4 +1,4 @@
-.container {
+/* .container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -71,5 +71,53 @@
   
   .speakButton:active {
     background-color: #003c80;
+  }
+   */
+
+
+
+   .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+  }
+  
+  .textArea {
+    width: 400px;
+    height: 150px;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  
+  .voiceSelect {
+    width: 200px;
+    margin-bottom: 20px;
+    padding: 5px;
+  }
+  
+  .speakButton,
+  .audioControls button {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .speakButton:disabled,
+  .audioControls button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+  
+  .audioControls {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .audioPlayer {
+    width: 400px;
+    margin-top: 10px;
   }
   
