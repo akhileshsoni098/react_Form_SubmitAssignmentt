@@ -1,6 +1,7 @@
 
 import './App.css';
 import Tts from './demo';
+import TextToSpeechApp from './TextToSpeech';
 // import Form from './demo';
 // import SpeechToText from './SpeechToText';
 
@@ -9,7 +10,8 @@ function App() {
     <div>
 <h1>Speech-to-Text Akhilesh Soni</h1>
     {/* <SpeechToText/> */}
-    <Tts/>
+    {/* <Tts/> */}
+    <TextToSpeechApp/>
     </div>
   );
 }
