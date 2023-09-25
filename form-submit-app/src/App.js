@@ -1,17 +1,12 @@
-
 import './App.css';
-import Tts from './demo';
-import TextToSpeechApp from './TextToSpeech';
-// import Form from './demo';
-// import SpeechToText from './SpeechToText';
+import ExcelDownload from './ExcelDownload';
 
 function App() {
   return (
     <div>
-<h1>Speech-to-Text Akhilesh Soni</h1>
-    {/* <SpeechToText/> */}
-    {/* <Tts/> */}
-    <TextToSpeechApp/>
+      <h1>Date filtered Excel data Akhilesh Soni</h1>
+      {/* Render the ExcelDownload component here */}
+      <ExcelDownload />
     </div>
   );
 }
