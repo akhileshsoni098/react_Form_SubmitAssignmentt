@@ -1,0 +1,64 @@
+/* styles.module.css */
+
+/* Apply your desired styling here */
+
+.resumeForm {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f8f8f8;
+  }
+  
+  .formSection {
+    margin-bottom: 20px;
+  }
+  
+  .formSection h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  /* Apply colorful styles to labels */
+  .formSection label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #e74c3c; /* Red color */
+  }
+  
+  /* Apply colorful styles to input fields */
+  .formSection input[type="text"],
+  .formSection textarea,
+  .formSection input[type="number"],
+  .formSection select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    background-color: #ecf0f1; /* Light gray */
+  }
+  
+  /* Apply colorful styles to buttons */
+  .formSection button[type="submit"] {
+    background-color: #3498db; /* Blue color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .formSection button[type="submit"]:hover {
+    background-color: #2980b9; /* Darker blue color */
+  }
+  
+  /* ... (other styles) */
+  
