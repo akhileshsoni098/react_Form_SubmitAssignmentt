@@ -1,12 +1,12 @@
 import './App.css';
-import ExcelDownload from './ExcelDownload';
+import  OcrImageUploader from './OcrImageUploader';
 
 function App() {
   return (
     <div>
       <h1>Date filtered Excel data Akhilesh Soni</h1>
-      {/* Render the ExcelDownload component here */}
-      <ExcelDownload />
+    
+      <OcrImageUploader />
     </div>
   );
 }
